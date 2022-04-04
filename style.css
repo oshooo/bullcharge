@@ -81,6 +81,7 @@ footer *{
     }
     .showcase{
         width: 60%;
+        height: 60;
     }
     .login_form{
         display: flex;
@@ -96,6 +97,11 @@ footer *{
         height: 40vh;
         padding-top: 3em;
         box-sizing: border-box;
+    }footer{
+        font-size: 3vmin;
     }
+    
+}
+@media only screen and (min-width: 1200px) {
     
 }
