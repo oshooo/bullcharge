@@ -80,6 +80,10 @@ footer *{
     display: none;
 }
 @media only screen and (max-width: 600px) {
+
+    body{
+        height: 100vh;
+    }
     .login_header{
         font-size: 4vmin;
         margin-bottom: 2em;
