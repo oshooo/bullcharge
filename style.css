@@ -45,7 +45,7 @@
 }label{
     display: flex;
     flex-direction: column;
-    margin: .5em;
+    margin: .7em;
     font-size: .8em;
 }.forgot_password{
     font-size: 2vmin;
@@ -68,16 +68,21 @@ footer{
 }
 footer *{
     margin: 0em 3em;
+    display: flex;
+    align-items: center;
 }footer  a{
     text-decoration: none;
     color: white;
 }footer a:hover{
     color: blue;
     text-decoration: underline;
+}.lock_mobile{
+    display: none;
 }
 @media only screen and (max-width: 600px) {
     .login_header{
         font-size: 4vmin;
+        margin-bottom: 2em;
     }
     .showcase{
         width: 60%;
@@ -87,18 +92,22 @@ footer *{
         display: flex;
         flex-direction: column;
     }.lock_img{
-        width: 80px;
-        height: 80px;
-        position: absolute;
-        bottom: 36%;
-        right: 20%;
-        opacity: 0.3;
+        display: none;
     }form{
         height: 40vh;
         padding-top: 3em;
         box-sizing: border-box;
     }footer{
         font-size: 3vmin;
+        display: flex;
+        align-items: center;
+    }.lock_mobile{
+        display: flex;
+        width: 70px;
+        height: 70px;
+        position: absolute;
+        top: 17%;
+        left: 43%;
     }
     
 }
