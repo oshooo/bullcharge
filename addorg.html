@@ -4,25 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>New Organisation</title>
 </head>
 <body>
-    <main class="wrapper">
-        <section>
-            <section class="add_showcase">
-
+    <main>
+        <section class="add_wrapper">
+            <h1 class="login_header">New Organisation</h1>
+            <div class="add_showcase">
+            <section class="add_img">
+                <img src="media/building.png" height="250" alt="">
             </section>
-            <section class="add_form">
-                <form action="">
-                    <label for="">
-                        <input type="text" name="" id="">
-                    </label>
-                    <input type="text" name="" id="">
-                    <input type="text" name="" id="">
-                    <input type="text" name="" id="">
-                    <input type="text" name="" id="">
-                </form>
-            </section>
+            <form action="" method="post" class="add_form">
+                    <label for="organisation">Organisation</label>
+                        <input type="text" name="" id="organisation" autofocus>
+                    <label for="pic">Person-in-Charge</label>
+                        <input type="text" name="" id="pic">
+                    <label for="emial">Email Address</label>
+                        <input type="email" name="" id="email">
+                    <div class="add_slots">
+                        <div>
+                        <label for="slot">Slot</label>
+                        <input type="number" name="" id="slot">
+                        </div>    
+                        <div>
+                            <label for="remain">Taken</label>
+                            <input type="number" name="" id="remain">
+                        </div>    
+                    </div>
+                    <div class="add_btns">
+                            <input type="submit" value="Create" id="" class="add_submit">
+                            <input type="button" value="Cancel" class="add_cancel">
+                    </div>
+            </form>
+            </div>
         </section>
         <footer>
             <div><a href="#">Admin Login</a></div>
