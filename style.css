@@ -86,7 +86,7 @@ footer *{
 @media only screen and (max-width: 600px) {
 
     html, body{
-        height: 100%;
+        height: 100vh;
     }
     .login_header{
         font-size: 4vmin;
@@ -118,19 +118,12 @@ footer *{
         left: 43%;
     }.add_img{
         display: none;
-    }.add_wrapper{
-       width: 100%;
-    }.add_form input{
-        width: 100%;
-        padding: 0;
     }.add_showcase{
-        width: 80%;
-        padding: 0;
+        width: 70%;
         margin: auto;
     }.add_form{
-
+        width: 100%;
     }
-    
 }
 @media only screen and (min-width: 1200px) {
     
@@ -152,8 +145,9 @@ footer *{
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    width: 50%;
     margin: auto;
+    padding: 2em;
+    box-sizing: border-box;
     font-size: .8em;
 }.add_form label{
     margin: .7em 0;
@@ -188,6 +182,6 @@ footer *{
     background-color: #BCED09;
 }.add_btns>input:hover{
     cursor: pointer;
-    color: #3066BE;
+    color: calc() #3066BE;
     background-color: aliceblue;
 }
